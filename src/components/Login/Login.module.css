@@ -1,0 +1,83 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+  padding: 3.2rem;
+  width: 40rem;
+
+  max-width: 100%;
+  background-color: #161d2f;
+  margin: auto;
+  border-radius: 2rem;
+}
+
+.form h2 {
+  font-size: 3.2rem;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: -0.5px;
+  line-height: normal;
+}
+.formInput {
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 1.6rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #5a698f;
+  color: #fff;
+}
+
+.loginBtn {
+  padding: 1.4rem 9rem;
+  background-color: #fc4747;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+}
+.loginBtn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.actions p {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+.actions button {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fc4747;
+  background: none;
+  border: none;
+  font-weight: 300;
+  font-feature-settings: "clig" off, "liga" off;
+  cursor: pointer;
+}
+
+.validationParagraph {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #fc4747;
+}
+
+.password, .emailAddress{
+  position: relative;
+}

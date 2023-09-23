@@ -1,0 +1,13 @@
+.recommendedMovies {
+    margin-top: 9rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+  }
+  
+  .title {
+    font-size: 3.2rem;
+    color: #fff;
+    margin: 3rem 0;
+  }

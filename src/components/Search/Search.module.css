@@ -1,0 +1,20 @@
+.searchContainer input {
+  width: 40%;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  padding: .5rem;
+  font-size: 2.4rem;
+}
+.searchContainer{
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+
+@media(max-width:1080px){
+  .searchContainer input{
+    width: 100%;
+  }
+}

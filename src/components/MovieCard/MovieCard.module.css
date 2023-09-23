@@ -1,0 +1,81 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  width: 47rem;
+  height: 23rem;
+  max-width: 100%;
+  border-radius: 8px;
+  padding: 1rem 1.4rem;
+}
+.categoryTitle {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+.bookmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(16, 20, 30, 60%);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.bookmark img {
+  width: 2.2rem !important;
+  height: 2.2rem;
+}
+.cardContainer h2 {
+  color: #fff;
+  font-size: 2.4rem;
+  text-align: left !important;
+}
+
+.cardContainer div ul {
+  display: flex;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.categories span {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.playButton {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 11.7rem;
+  height: 6rem;
+  padding: 0 1rem;
+  max-width: 100%;
+  border-radius: 28.5px;
+  border: none;
+  background-color: rgb(255, 255, 255, 0.25);
+  color: #fff;
+  font-size: 1.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.playButton img {
+  width: 5rem;
+  height: 5rem;
+}
+
+@media (max-width: 1180px) {
+  .cardContainer {
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+.recommendedMovies {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+  gap: 1rem;
+}
+
+.title {
+  font-size: 3.2rem;
+  color: #fff;
+  margin: 3rem 0;
+}

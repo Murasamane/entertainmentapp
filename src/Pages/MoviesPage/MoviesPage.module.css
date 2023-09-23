@@ -1,0 +1,14 @@
+.movieContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+  gap: 1rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.container h2 {
+  font-size: 3.2rem;
+  color: #fff;
+}
